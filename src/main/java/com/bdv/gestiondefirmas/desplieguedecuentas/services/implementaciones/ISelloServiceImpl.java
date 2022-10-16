@@ -20,7 +20,7 @@ public class ISelloServiceImpl implements ISelloService {
 
 
     @Override
-    public Optional<Sello> findByIdImagen(Long idImagen) {
+    public Sello findByIdImagen(Long idImagen) {
         return selloRepository.finByIdImagen(idImagen);
     }
 }

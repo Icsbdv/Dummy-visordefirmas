@@ -30,12 +30,9 @@ public class Firma {
     @Column(name="Longitud")
     private Integer longitud;
 
-    @Column(name="Imagen")
-    @Lob
+
     private byte[] imagen;
 
-    public Integer getImagenHashCode(){
-        return (this.imagen!=null) ? this.imagen.hashCode():null;
-    }
+
 
 }

@@ -19,7 +19,7 @@ public class IFirmaServiceImpl implements IFirmaService {
 
 
     @Override
-    public Optional<Firma> findByIdImagen(Long idImagen) {
+    public Firma findByIdImagen(Long idImagen) {
         return firmaRepository.finByIdImagen(idImagen);
     }
 }
