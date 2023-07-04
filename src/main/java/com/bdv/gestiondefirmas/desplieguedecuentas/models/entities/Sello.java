@@ -32,7 +32,8 @@ public class Sello {
     private Integer longitud;
 
 
-    private byte[] imagen;
+   // private byte[] imagen;
+    private String imagen;
 
 
 }

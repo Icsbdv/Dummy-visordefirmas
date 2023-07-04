@@ -31,7 +31,8 @@ public class Firma {
     private Integer longitud;
 
 
-    private byte[] imagen;
+    //private byte[] imagen;
+    private String imagen;
 
 
 
