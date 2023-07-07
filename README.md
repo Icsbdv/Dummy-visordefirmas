@@ -1,1 +1,1 @@
-# Visor de firmas
+# Dummy visor de firmas
